@@ -1,0 +1,24 @@
+{
+    "name": "aluno/php_unit",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "test\\":"tests/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Matheus Marcos",
+            "email": "marcosjunior306410@gmail.com"
+        }
+    ],
+    "phpunit/php-code-coverage":"^4.0.3",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
