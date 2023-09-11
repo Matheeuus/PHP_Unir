@@ -1,0 +1,23 @@
+{
+    "name": "aluno/php_unir-main",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\PhpUnirMain\\": "src/"
+        }
+    },
+    "auto-load-dev": {
+        "psr-4": {
+            "test\\":"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MatheusEMarcos",
+            "email": "matheuspadilha2012@hotmail.com"
+        }
+    ],
+    "phpunit/php-code-coverage": "^4.0.3",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
